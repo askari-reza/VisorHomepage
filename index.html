@@ -30,8 +30,7 @@
     <h4 class="logo" onclick="navDisplay()">VISOR</h4>
     <nav id="nav">
       <ul>
-        <li><a href="#location">مکان</a></li>
-        <li><a href="#about">درباره</a></li>
+        <li><a href="#about">درباره کانون</a></li>
         <li> <a href="#contact">تماس با ما</a></li>
       </ul>
     </nav>
@@ -44,7 +43,7 @@
 	<div class="button" onclick="register()">ثبت نام</div>
   </section>
   <!-- About Section -->
-  <section class="about" id="about">
+  <section class="about">
     <h2 class="hidden">درباره جشنواره</h2>
 	<p class="text_column ">کانون فیلم و عکس دانشگاه شیراز نخستین دوره جشنواره سالانه  عکس (کشوری یا منطقه ای) "ویزور" را با هدف ایجاد نشاط و پویایی وبرپایی بستری مناسب به منظور بوجود آمدن فضای رقابت سالم و شناسایی عکاسان جوان و با استعداد و همچنین ارج نهادن هر چه بیشتر به هنر عکاسی و عکاسان ارزشمند و گرانقدر این سرزمین برگزار میکند.</p>
 	<h3 class="hidden">تقویم جشنواره</h3>
@@ -109,7 +108,7 @@
 			<li>عکس‌هایی با محتوای نامناسب، توهین‌آمیز از جمله نمایش برهنگی، خشونت یا هر محتوای مشابه اینها مورد قبول نخواهد بود.</li>
 		</ol>
 		<input type="checkbox" id="accepted-rules" /> <label>قوانین را به دقت مطالعه کرده و می‌پذریم.</label>
-		<div class="button">ادامه</div>
+		<div class="button" onclick="redirToForm()">ادامه</div>
 
 	  </article>
   </section>
@@ -120,17 +119,23 @@
   </section>
   <!-- More Info Section -->
   <footer>
-    <span class="footer_column" id="location">
-      <h3>مکان</h3>
-     	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.8303406642544!2d52.494715783782844!3d29.646501787202443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c310ce4bff6d557!2sSchool+of+Dentistry%2C+Shiraz+University+of+Medical+Sciences!5e0!3m2!1sen!2suk!4v1514040509922" width="70%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <p>آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس آدرس </p>
-    </span>
+    <article class="footer_column" id="about">
+    <h3>درباره کانون</h3>
+    <p>کانون فیلم و عکس دانشگاه شیراز با قدمتی در حدود ۵۰ سال قصد دارد تا با قدرتی بیش از پیش در راه ارتباط هنر سینما و عکاسی با هنرمندان عزیز گام بردارد.</p>
+    <p>در بخش عکس کانون فیلم و عکس قصد دارد تیم های عکاسی مختلفی از علاقه مندان تشکیل داده و برنامه های متنوع و گوناگونی را برای این عزیزان عرضه نماید. همچنین با برگزاری کارگاه ها و کلاس ها و دعوت از اساتید مجرب، به آموزش عکاسی برای هنرجویان نیز توجه خاصی دارد.
+</p>
+    <p>برگزاری مسابقات عکاسی و برپایی نمایشگاه های عکس از آثار شما عزیزان و همچنین جشنواره های گوناگون مانند جشنواره سالانه ویزور از دیگر برنامه های کانون فیلم و عکس دانشگاه شیراز در بخش عکس می باشد.</p>
+    <p>در بخش فیلم ، علاوه بر برگزاری کلاس، کارگاه نشست ها و جلسات تخصصی در زمینه سینما، در کنار دعوت از اساتید و اشخاص مطرح و مجرب در زمینه سینما و بازیگری و فیلم نامه نویسی و ... را در دستور کار خود قرار داده است.
+</p>
+    <p>اهتمام ویژه به نشریه ۳۵ میلی متر گه دو ماهنامه ی کانون فیلم و عکس می باشد و مطالب آن در زمینه سینما و تلویزیون و عکاسی است.</p>
+    </article>
   </footer>
   <!-- Footer Section -->
   <section class="footer_banner">
     <h2 class="hidden">Footer Banner Section </h2>
     <p class="hero_header">برای آگاهی از آخرین اعلان‌ها</p>
-    <div class="button">عضویت خبرنامه</div>
+    <div id="shadow"></div>
+    <a href="https://t.me/shzunifilmclub"><div class="button">کانال تلگرام</div></a>
   </section>
   <!-- Copyrights Section -->
   <div class="copyright" dir="ltr">&copy;2017 - VisorFestival <strong></strong></div>
