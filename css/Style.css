@@ -80,7 +80,6 @@ header {
 	height: 46px;
 	background-color: #52bad5;
 	border-bottom: 1px solid #2C9AB7;
-  position: fixed;
 }
 .logo {
 	color: #fff;
@@ -458,8 +457,8 @@ header nav {
 	margin-left: 0px;
 	width: 100%;
 	float: none;
-  display: none;
-	overflow: hidden;
+  display: inline-block;
+	overflow: auto;
 	background: #52bad5;
 }
 header nav ul {
