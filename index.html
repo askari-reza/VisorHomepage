@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa-IR" dir="rtl">
+<html lang="fa-IR" >
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,11 @@
 <meta name="description" content="جشنواره سالانه عکس ویزور" />
 <meta name="keywords" content="مسابقه عکاسی, گالری عکس, نمایشگاه عکس, عکس اجتماعی, انجمن فیلم و عکس" />
 <meta name="author" content="" />
+<meta property="og:title" content="Visor Festival" />
+<meta property="og:description" content="جشنواره سالانه عکس ویزور" />
+<meta property="og:image" content="images/parallax.jpg" />
+<meta property="og:url" content="" />
+<meta name="twitter:card" content="summary_large_image" />
 <title>VISOR</title>
 <link href="css/Style.css" rel="stylesheet" type="text/css" />
 <script src="js/script.js" type="text/javascript"></script>
@@ -17,14 +22,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body dir="rtl">
 <!-- Main Container -->
-<div class="container"> 
+
   <!-- Navigation -->
-  <header> <a href="">
-    <h4 class="logo">VISOR</h4>
-    </a>
-    <nav>
+  <header>
+    <h4 class="logo" onclick="navDisplay()">VISOR</h4>
+    <nav id="nav">
       <ul>
         <li><a href="#location">مکان</a></li>
         <li><a href="#about">درباره</a></li>
@@ -32,6 +36,7 @@
       </ul>
     </nav>
   </header>
+  <div class="container">
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <h2 class="hero_header">Visor<span class="light">Festival</span></h2>
@@ -41,7 +46,7 @@
   <!-- About Section -->
   <section class="about" id="about">
     <h2 class="hidden">درباره جشنواره</h2>
-	<p class="text_column">کانون فیلم و عکس دانشگاه شیراز نخستین دوره جشنواره سالانه  عکس (کشوری یا منطقه ای) "ویزور" را با هدف ایجاد نشاط و پویایی وبرپایی بستری مناسب به منظور بوجود آمدن فضای رقابت سالم و شناسایی عکاسان جوان و با استعداد و همچنین ارج نهادن هر چه بیشتر به هنر عکاسی و عکاسان ارزشمند و گرانقدر این سرزمین برگزار میکند.</p>
+	<p class="text_column ">کانون فیلم و عکس دانشگاه شیراز نخستین دوره جشنواره سالانه  عکس (کشوری یا منطقه ای) "ویزور" را با هدف ایجاد نشاط و پویایی وبرپایی بستری مناسب به منظور بوجود آمدن فضای رقابت سالم و شناسایی عکاسان جوان و با استعداد و همچنین ارج نهادن هر چه بیشتر به هنر عکاسی و عکاسان ارزشمند و گرانقدر این سرزمین برگزار میکند.</p>
 	<h3 class="hidden">تقویم جشنواره</h3>
     <p class="text_column" style="text-align: center">
 		مهلت ارثال آثار تا: <span class="light"> اول بهمن ماه </span><br />
@@ -100,12 +105,12 @@
 			<li>جوایز برگزیدگان در اختتامیه جشنواره به عکاسان تقدیم خواهد شد.</li>
 			<li>به همراه جوایز جشنواره به نفرات برتر وآثار منتخب راه یافته به نمایشگاه و کتاب گواهی شرکت در جشنواره را اعطا خواد کرد.</li>
 			<li>ارسال آثار از طریق وب سایت دبیرخانه جشنواره انجام میگیرد و ثبت‌نام اینترنتی برای تمامی شرکت‌کنندگان الزامی بوده و تنها در صورت لزوم و صلاحدید تمدید خواهد شد.</li>
-			<li>آثار ارسالی بایستی از شرط مطابقت با قوانین جمهوری اسلامی ایران و عرف اجتماعی برخوردار باشند.</li> 
+			<li>آثار ارسالی بایستی از شرط مطابقت با قوانین جمهوری اسلامی ایران و عرف اجتماعی برخوردار باشند.</li>
 			<li>عکس‌هایی با محتوای نامناسب، توهین‌آمیز از جمله نمایش برهنگی، خشونت یا هر محتوای مشابه اینها مورد قبول نخواهد بود.</li>
 		</ol>
 		<input type="checkbox" id="accepted-rules" /> <label>قوانین را به دقت مطالعه کرده و می‌پذریم.</label>
 		<div class="button">ادامه</div>
-		  
+
 	  </article>
   </section>
   <!-- Parallax Section -->
